@@ -12,14 +12,17 @@ By deploying this tiny forward proxy on your VPS as a website, you can:
 Install TubeX by npm:
 * npm i tubex
 * cd ~/node_modules/tubex
-put your app.key and app.crt in this folder, or create a self-signed certificate with openssl:
+
+Put your app.key and app.crt in this folder, or create a self-signed certificate with openssl:
 * openssl req -x509 -sha256 -nodes -days 3650 -newkey rsa:2048 -keyout app.key -out app.crt
-then start server in background:
+
+Then start server in background:
 * sudo nohup ./server.js >> tubex.log 2>&1 &
+
 Now you can access your website in browsers.
 
-### Screenshots
-#### Search results
+## Screenshots
+### Search results
 ![image](https://github.com/dreamrover/screenshots/blob/master/TED.png)
-#### Watch online
+### Watch online
 ![image](https://github.com/dreamrover/screenshots/blob/master/Shara.png)
