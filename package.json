@@ -1,0 +1,28 @@
+{
+  "name": "TubeX",
+  "version": "1.0.0",
+  "description": "A forward proxy to YouTube written in nodejs",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamrover/tubex.git"
+  },
+  "keywords": [
+    "youtube",
+    "proxy"
+  ],
+  "author": "dreamrover",
+  "license": "ISC",
+  "dependencies": {
+    "ytsr": "^3.5.0",
+    "ytdl-core": "^4.5.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "koa-sslify": "^5.0.0",
+    "axios": "^0.21.1"
+  },
+  "bugs": {
+    "url": "https://github.com/dreamrover/tubex/issues"
+  },
+  "homepage": "https://github.com/dreamrover/tubex#readme"
+}
