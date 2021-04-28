@@ -60,7 +60,7 @@ const create_page = (title, keyword, extra) => `
   <h1 style="text-align:center;">TubeX</h1>
   <body>
     <form action="/result" method="get" style="text-align:center;">
-      <p><input type="text" size="40" name="search_query" value="${keyword||''}"><input type="submit" value="Go"></p>
+      <p><input type="text" size=30 name="search_query" value="${keyword||''}"><input type="submit" value="Go"></p>
       <p><input type="radio" id="radio1" name="t" value="kw" checked><label for="radio1">keyword</label>
       <input type="radio" id="radio2" name="t" value="id"><label for="radio2">url/id</label></p>
     </form>

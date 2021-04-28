@@ -1,5 +1,5 @@
 {
-  "name": "TubeX",
+  "name": "tubex",
   "version": "1.0.0",
   "description": "A forward proxy to YouTube written in nodejs",
   "main": "server.js",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/dreamrover/tubex/issues"
   },
-  "homepage": "https://github.com/dreamrover/tubex#readme"
+  "homepage": "https://github.com/dreamrover/tubex#readme",
+  "scripts": {
+    "start": "sudo nohup ./server.js >> tubex.log 2>&1 &"
+  }
 }
